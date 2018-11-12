@@ -1,0 +1,377 @@
+{
+  "sftp://192.168.10.50:22@pi": {
+    "var": {
+      "www": {
+        "html": {
+          "php": {
+            "pages": {
+              "header.php.save": {
+                "type": "-",
+                "size": 1086,
+                "lmtime": 1539019172000,
+                "modified": false
+              },
+              "header.php": {
+                "type": "-",
+                "size": 995,
+                "lmtime": 1539019172000,
+                "modified": false
+              },
+              "lighting.php": {
+                "type": "-",
+                "size": 2770,
+                "lmtime": 1539019172000,
+                "modified": false
+              },
+              "menu.php": {
+                "type": "-",
+                "size": 997,
+                "lmtime": 1539019172000,
+                "modified": false
+              }
+            },
+            ".up.py.swp": {
+              "type": "-",
+              "size": 1024,
+              "lmtime": 1539019172000,
+              "modified": false
+            },
+            "blkmagic": {
+              "stop.php": {
+                "type": "-",
+                "size": 75,
+                "lmtime": 1539019172000,
+                "modified": false
+              },
+              "record.php": {
+                "type": "-",
+                "size": 77,
+                "lmtime": 1539019172000,
+                "modified": false
+              }
+            },
+            "projector": {
+              "mute_unmute.php": {
+                "type": "-",
+                "size": 99,
+                "lmtime": 1539019172000,
+                "modified": false
+              },
+              "mute_unmute.php.save": {
+                "type": "-",
+                "size": 189,
+                "lmtime": 1539019172000,
+                "modified": false
+              },
+              "on_off.php": {
+                "type": "-",
+                "size": 100,
+                "lmtime": 1539019172000,
+                "modified": false
+              }
+            },
+            "screen": {
+              "up.php": {
+                "type": "-",
+                "size": 70,
+                "lmtime": 1539019172000,
+                "modified": false
+              },
+              "down.php": {
+                "type": "-",
+                "size": 73,
+                "lmtime": 1539019172000,
+                "modified": false
+              },
+              "stop.php": {
+                "type": "-",
+                "size": 81,
+                "lmtime": 1539019172000,
+                "modified": false
+              }
+            }
+          },
+          ".index.php.swp": {
+            "type": "-",
+            "size": 1024,
+            "lmtime": 1539019172000,
+            "modified": false
+          },
+          "readme.txt": {
+            "type": "-",
+            "size": 299,
+            "lmtime": 1539019172000,
+            "modified": false
+          },
+          "index.php": {
+            "type": "-",
+            "size": 5168,
+            "lmtime": 1539019172000,
+            "modified": false
+          },
+          "django": {
+            "automationinterface": {
+              "automationinterface": {
+                "__pycache__": {
+                  "settings.cpython-35.pyc": {
+                    "type": "-",
+                    "size": 2455,
+                    "lmtime": 1539019173000,
+                    "modified": false
+                  },
+                  "urls.cpython-35.pyc": {
+                    "type": "-",
+                    "size": 1028,
+                    "lmtime": 1539019173000,
+                    "modified": false
+                  },
+                  "__init__.cpython-35.pyc": {
+                    "type": "-",
+                    "size": 155,
+                    "lmtime": 1539019173000,
+                    "modified": false
+                  },
+                  "wsgi.cpython-35.pyc": {
+                    "type": "-",
+                    "size": 600,
+                    "lmtime": 1539019173000,
+                    "modified": false
+                  }
+                },
+                "wsgi.py": {
+                  "type": "-",
+                  "size": 415,
+                  "lmtime": 1539019172000,
+                  "modified": false
+                },
+                "urls.py": {
+                  "type": "-",
+                  "size": 820,
+                  "lmtime": 1539019172000,
+                  "modified": false
+                },
+                "__init__.py": {
+                  "type": "-",
+                  "size": 0,
+                  "lmtime": 1539019172000,
+                  "modified": false
+                },
+                "settings.py": {
+                  "type": "-",
+                  "size": 3180,
+                  "lmtime": 1539019173000,
+                  "modified": false
+                }
+              },
+              "manage.py": {
+                "type": "-",
+                "size": 551,
+                "lmtime": 1539019172000,
+                "modified": false
+              },
+              "projector": {
+                "__pycache__": {
+                  "models.cpython-35.pyc": {
+                    "type": "-",
+                    "size": 1045,
+                    "lmtime": 1539019173000,
+                    "modified": false
+                  },
+                  "views.cpython-35.pyc": {
+                    "type": "-",
+                    "size": 418,
+                    "lmtime": 1539019173000,
+                    "modified": false
+                  },
+                  "admin.cpython-35.pyc": {
+                    "type": "-",
+                    "size": 190,
+                    "lmtime": 1539019173000,
+                    "modified": false
+                  },
+                  "urls.cpython-35.pyc": {
+                    "type": "-",
+                    "size": 289,
+                    "lmtime": 1539019173000,
+                    "modified": false
+                  },
+                  "apps.cpython-35.pyc": {
+                    "type": "-",
+                    "size": 383,
+                    "lmtime": 1539019173000,
+                    "modified": false
+                  },
+                  "__init__.cpython-35.pyc": {
+                    "type": "-",
+                    "size": 145,
+                    "lmtime": 1539019173000,
+                    "modified": false
+                  }
+                },
+                "views.py": {
+                  "type": "-",
+                  "size": 205,
+                  "lmtime": 1539019173000,
+                  "modified": false
+                },
+                "tests.py": {
+                  "type": "-",
+                  "size": 60,
+                  "lmtime": 1539019173000,
+                  "modified": false
+                },
+                "urls.py": {
+                  "type": "-",
+                  "size": 115,
+                  "lmtime": 1539019173000,
+                  "modified": false
+                },
+                "migrations": {
+                  "__pycache__": {
+                    "__init__.cpython-35.pyc": {
+                      "type": "-",
+                      "size": 156,
+                      "lmtime": 1539019173000,
+                      "modified": false
+                    },
+                    "0001_initial.cpython-35.pyc": {
+                      "type": "-",
+                      "size": 1169,
+                      "lmtime": 1539019173000,
+                      "modified": false
+                    }
+                  },
+                  "0001_initial.py": {
+                    "type": "-",
+                    "size": 1169,
+                    "lmtime": 1539019173000,
+                    "modified": false
+                  },
+                  "__init__.py": {
+                    "type": "-",
+                    "size": 0,
+                    "lmtime": 1539019173000,
+                    "modified": false
+                  }
+                },
+                "apps.py": {
+                  "type": "-",
+                  "size": 93,
+                  "lmtime": 1539019173000,
+                  "modified": false
+                },
+                "admin.py": {
+                  "type": "-",
+                  "size": 63,
+                  "lmtime": 1539019173000,
+                  "modified": false
+                },
+                "__init__.py": {
+                  "type": "-",
+                  "size": 0,
+                  "lmtime": 1539019173000,
+                  "modified": false
+                },
+                "models.py": {
+                  "type": "-",
+                  "size": 506,
+                  "lmtime": 1539019173000,
+                  "modified": false
+                }
+              },
+              "db.sqlite3": {
+                "type": "-",
+                "size": 143360,
+                "lmtime": 1539019172000,
+                "modified": false
+              }
+            }
+          },
+          "css": {
+            "style.css": {
+              "type": "-",
+              "size": 1609,
+              "lmtime": 1539019173000,
+              "modified": false
+            },
+            "boostrap.min.css.save": {
+              "type": "-",
+              "size": 166,
+              "lmtime": 0,
+              "modified": false
+            },
+            "bootstrap.min.css.save": {
+              "type": "-",
+              "size": 283,
+              "lmtime": 0,
+              "modified": false
+            }
+          },
+          "js": {
+            "submit.js": {
+              "type": "-",
+              "size": 735,
+              "lmtime": 1539019173000,
+              "modified": false
+            },
+            "functions.js": {
+              "type": "-",
+              "size": 908,
+              "lmtime": 1539019173000,
+              "modified": false
+            }
+          },
+          ".htaccess": {
+            "type": "-",
+            "size": 1,
+            "lmtime": 1539019172000,
+            "modified": false
+          },
+          "py": {
+            "blkmagic": {
+              "record.py": {
+                "type": "-",
+                "size": 259,
+                "lmtime": 1539019173000,
+                "modified": false
+              },
+              "stop.py": {
+                "type": "-",
+                "size": 257,
+                "lmtime": 1539019173000,
+                "modified": false
+              },
+              "testing.py": {
+                "type": "-",
+                "size": 702,
+                "lmtime": 1539019173000,
+                "modified": false
+              }
+            },
+            "screen": {
+              "stop.py": {
+                "type": "-",
+                "size": 152,
+                "lmtime": 1539019173000,
+                "modified": false
+              },
+              "up.py": {
+                "type": "-",
+                "size": 188,
+                "lmtime": 1539019173000,
+                "modified": false
+              },
+              "down.py": {
+                "type": "-",
+                "size": 194,
+                "lmtime": 1539019173000,
+                "modified": false
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$version": 1
+}

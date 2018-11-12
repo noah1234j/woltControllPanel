@@ -1,0 +1,30 @@
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Head Section --> <!doctype html> <html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, 
+initial-scale=1, shrink-to-fit=no">
+      
+      <title>CPanel</title>
+      <!-- Bootstrap CSS -->
+      <link 
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" 
+rel="stylesheet">
+      <!-- Bootstrap Toggle Library -->
+      <link 
+href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" 
+rel="stylesheet">
+      <!-- Font-Awesome -->
+      <link 
+href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+rel="stylesheet">
+      <!--Jquery -->
+      <script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <!-- My Css -->
+      <link href="css/style.css" rel="stylesheet">
+      <!-- My JS -->
+      <script src="js/functions.js"></script>
+      <script src="js/submit.js"></script>
+   </head>
