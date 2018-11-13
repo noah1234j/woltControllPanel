@@ -15,9 +15,9 @@
         "\\.vscode",
         "\\.git",
         "\\.DS_Store"
-    ],
+        ],
     "generatedFiles": {
-        "uploadOnSave": false,
+        "uploadOnSave": true,
         "extensionsToInclude": [],
         "path": ""
     }

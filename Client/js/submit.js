@@ -12,9 +12,10 @@ $(document).ready(function(){
 		'scrnUp':'../php/screen/up.php',
 		'scrnStop':'../php/screen/stop.php',
 		'scrnDown':'../php/screen/down.php',
-		'recordStart':'../php/blkmagic/record.php',
-		'recordStop':'../php/blkmagic/stop.php'
+		'recordStart':'../Server/JS/record.js',
+		'recordStop':'../Server/JS/stop.js'
 		};
+
 
 //Activates Script for each button
 function myFunction(e) {
@@ -30,8 +31,8 @@ function myFunction(e) {
 			type: "POST",
 			url: $url,
 			data: {},
-			successs: function() {
-				console.log('success');
+			successs: (data) => {
+				console.log(data);
 			}
 		});
 	}
