@@ -1,0 +1,86 @@
+.header {
+  width: 100%;
+  background-color: #525151;
+  color: #ddd;
+  font-size: 30px;
+  padding: 20px;
+  display: inline-block; }
+
+.content {
+  text-align: center;
+  background-color: #f5f5f5;
+  height: 100vh; }
+
+button {
+  margin: 10px;
+  width: 65px;
+  height: 65px; }
+
+.btn-lg {
+  padding: 10px 15px;
+  border-radius: 40px; }
+
+h3 {
+  margin-top: 40px; }
+
+table {
+  margin: 0 auto;
+  text-align: center; }
+
+td {
+  padding: 30px 30px; }
+
+i {
+  font-size: 25pt; }
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0; }
+
+li {
+  display: inline-block;
+  padding: 0; }
+
+li p {
+  margin: 0; }
+
+.settings {
+  float: right; }
+
+a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit; }
+
+.status-message {
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 7px;
+  clear: both; }
+
+.status-message-success {
+  background: #28a746; }
+
+.status-message-failure {
+  background: #dc3545; }
+
+.message {
+  display: inline-block;
+  padding: 10px;
+  color: white; }
+
+.status-close {
+  font-size: 14pt;
+  color: white;
+  padding: 10px;
+  padding-top: 5px;
+  float: right; }
+
+.status-location {
+  top: 100px;
+  right: 1%;
+  z-index: 2;
+  position: absolute; }
