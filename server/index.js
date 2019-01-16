@@ -1,19 +1,19 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
-let app = express();
-let logger = require("./controllers/logController");
+const app = express();
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "/views/"));
 
-app.use(express.static(__dirname + "/public/"));
+//static middlware
+app.use(express.static("../client/dist"));
 
 //Body Parser Middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-require("./routes.js")(app);
+require("./routes/routes")(app);
 
 app.listen(3000, () => {
   console.log(`Server listening on port ${3000}`);

@@ -16,24 +16,40 @@ class HyperdeckController {
 
   customRequest(req) {
     return this.hyperdeck.makeRequest(req).then(res => {
+      if (res.code == 200) {
+        res.message = "Your Custom Request Was Successful";
+      } else {
+        res.message = "Could Not Fulfill Custom Request";
+      }
       return res;
     });
   }
 
   record() {
     return this.hyperdeck.record().then(res => {
+      if (res.code == 200) {
+        res.message = "Successfully Started Video Recording";
+      } else {
+        res.message = "Could Not Start Video Recording";
+      }
       return res;
     });
   }
 
   stop() {
     return this.hyperdeck.stop().then(res => {
+      if (res.code == 200) {
+        res.message = "Successfully Stopped Video Recording";
+      } else {
+        res.message = "Could Not Stop Video Recording";
+      }
       return res;
     });
   }
 
   kill() {
     return this.hyperdeck.makeRequest("quit").then(res => {
+      res.message = "Successfully Closed Connection to Hyperdeck Mini"
       return res;
     });
   }

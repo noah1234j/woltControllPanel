@@ -7,7 +7,7 @@
     "start": "node index.js",
     "sass:compile": "node-sass -o public/css public/sass/main.scss",
     "sass:liveCompile": "node-sass -o public/css public/sass/main.scss -w",
-    "start-dev": "nodemon index.js"
+    "dev": "nodemon ./index.js --watch .."
   },
   "author": "",
   "license": "ISC",
@@ -17,15 +17,13 @@
     "date-and-time": "^0.6.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "gpio": "^0.2.10",
     "http": "0.0.0",
     "hyperdeck-js-lib": "^1.6.0",
     "parser": "^0.1.4",
     "raw-socket": "^1.6.4",
     "request": "^2.88.0",
-    "requests": "^0.2.2",
+    "rpi-gpio": "^2.1.2",
     "websocket": "^1.0.28"
-  },
-  "devDependencies": {
-    "node-sass": "^4.11.0"
   }
 }
