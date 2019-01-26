@@ -24,6 +24,7 @@
     "raw-socket": "^1.6.4",
     "request": "^2.88.0",
     "rpi-gpio": "^2.1.2",
-    "websocket": "^1.0.28"
+    "websocket": "^1.0.28",
+    "onoff": "^3.2.2"
   }
 }

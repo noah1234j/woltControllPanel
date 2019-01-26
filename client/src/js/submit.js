@@ -1,7 +1,7 @@
 // submit.js 
 
-let bob = require("./status-message")
-	
+//let bob = require("./status-message")
+
 	//activates the function when a .btn is clicked
 	$('.btn').click(function(e){
 		console.log("button clicked")
@@ -11,13 +11,12 @@ let bob = require("./status-message")
 	export let $buttonList = {
 		'prjPower': {url: 'api/projector/', data: {command: "on/off"}},
 		'prjPicture':{url: 'api/projector/', data: {command: "mute/unmute"}},
-		'scrnUp':{},
-		'scrnStop':{},
-		'scrnDown':{},
+		'scrnUp':{url: '/api/screen/', data: {command: "up"}},
+		'scrnStop':{url: "/api/screen/", data: {command: "stop"}},
+		'scrnDown':{url: "/api/screen/", data: {command: "down"}},
 		'recordStart':{url: 'api/hyperdeck/', data: { command: "record" }},
 		'recordStop':{url: 'api/hyperdeck/', data: { command: "stop" }}
 		};
-
 
 //Activates Script for each button
 export function sendReq(e, callback) {

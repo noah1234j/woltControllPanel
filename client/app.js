@@ -1,5 +1,5 @@
 import { StatusMessage } from "./src/js/status-message.js"
-import { $buttonList, sendReq } from "./src/js/submit.js"
+import { sendReq } from "./src/js/submit.js"
 
 //Styles
 require("./src/sass/main.scss")
