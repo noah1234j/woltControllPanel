@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "sudo node index.js",
     "sass:compile": "node-sass -o public/css public/sass/main.scss",
     "sass:liveCompile": "node-sass -o public/css public/sass/main.scss -w",
-    "dev": "nodemon ./index.js --watch .."
+    "dev": "sudo nodemon ./index.js --watch .."
   },
   "author": "",
   "license": "ISC",

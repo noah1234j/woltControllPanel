@@ -1,11 +1,13 @@
 const gpio = require('onoff').Gpio
-const down = new gpio(14, 'out')
-const up = new gpio(15, 'out')
+const down = new gpio(14, 'hi')
+const up = new gpio(15, 'hi')
 const fs = require('fs')
 let on = 0
 let off = 1
 let settings = require('../../settings.json')
 let settingsLocation = "../../settings.json"
+
+
 
 class screenController {
     async status() {
@@ -27,7 +29,6 @@ class screenController {
     }
 
     async down() {
-        console.log("going down")
         up.writeSync(off)
         down.writeSync(off)
 
