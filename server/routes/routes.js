@@ -21,9 +21,9 @@ module.exports = function(app) {
   });
 
   //Screen
-  app.post("/api/screen/", (req, res) => {
-    screenController(req, res)
-  })
+//   app.post("/api/screen/", (req, res) => {
+//     screenController(req, res)
+//   })
 };
 
 
