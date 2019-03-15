@@ -1,6 +1,7 @@
 let Projector = require("./index");
 let projector = new Projector();
+console.log("bob");
 
-console.log(projector.vidMute());
-
-console.log(projector.status())
+(async function bob() {
+  console.log(await projector.vidMute());
+})();

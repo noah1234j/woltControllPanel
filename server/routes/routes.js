@@ -1,7 +1,7 @@
 //Controllers
 let hyperdeckController = require("../controllers/hyperdeckController");
 let projectorController = require("../controllers/projectorController");
-let screenController = require("../controllers/screenController")
+let screenController = require("../controllers/screenController");
 
 module.exports = function(app) {
   //Main Page
@@ -20,10 +20,8 @@ module.exports = function(app) {
     projectorController(req, res);
   });
 
-  //Screen
-  app.post("/api/screen/", (req, res) => {
-    screenController(req, res)
-  })
+  // //Screen
+  // app.post("/api/screen/", (req, res) => {
+  //   screenController(req, res)
+  // })
 };
-
-
