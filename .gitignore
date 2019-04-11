@@ -1,1 +1,4 @@
-node_modules/
+server/node_modules/
+client/node_modules
+other/screen_server/node_modules
+other/stream_server/node_modules

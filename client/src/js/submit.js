@@ -15,13 +15,15 @@
 		'scrnStop':{url: "/api/screen/", data: {command: "stop"}},
 		'scrnDown':{url: "/api/screen/", data: {command: "down"}},
 		'recordStart':{url: 'api/hyperdeck/', data: { command: "record" }},
-		'recordStop':{url: 'api/hyperdeck/', data: { command: "stop" }}
+		'recordStop':{url: 'api/hyperdeck/', data: { command: "stop" }},
+		'streamStart':{url: "api/stream/", data: { command: "start" }},
+		'streamStop':{url: "api/stream/", data: { command: "stop" }}
 		};
 
 //Activates Script for each button
 export function sendReq(e, callback) {
 
-	//grabs button id
+	//grabs button ide
 	let $buttonId = e.currentTarget.id;
 
 	//grabs the script for each button from the list

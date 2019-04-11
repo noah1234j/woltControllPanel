@@ -3,7 +3,7 @@
 //Function Defs 
 
 export class StatusMessage {
-    create(res, message, fadeDelay = 3000) {
+    create(res, message, fadeDelay = 10000) {
         //Creates the message
         $(".status-location").prepend("<div class='status-message'><p class='message'>" + message +"</p><div class='status-close'>x</div></div>")
 
@@ -20,9 +20,9 @@ export class StatusMessage {
         $('.status-message').delay( fadeDelay ).fadeOut( 1200 )
     }
 
-        kill(e) {
-            e.target.parentElement.remove() //removes the element when x is clicked
-        }
+    kill(e) {
+        e.target.parentElement.remove() //removes the element when x is clicked
+    }
 
 }
 

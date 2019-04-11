@@ -2,6 +2,7 @@
 let hyperdeckController = require("../controllers/hyperdeckController");
 let projectorController = require("../controllers/projectorController");
 let screenController = require("../controllers/screenController");
+let streamController = require("../controllers/streamController");
 
 module.exports = function(app) {
   //Main Page
@@ -23,5 +24,11 @@ module.exports = function(app) {
   //Screen
   app.post("/api/screen/", (req, res) => {
     screenController(req, res)
+  })
+
+  //Stream
+  app.post("/api/stream/", (req, res) => {
+    console.log('stream endpoint')
+    streamController(req, res)
   })
 };

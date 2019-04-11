@@ -15,7 +15,9 @@
         "\\.vscode",
         "\\.git",
         "\\.DS_Store",
-        "\\other"
+        "\\other",
+        "\\server\\node_modules",
+        "\\client\\node_modules"
         ],
     "generatedFiles": {
         "uploadOnSave": true,

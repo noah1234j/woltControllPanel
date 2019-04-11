@@ -15,9 +15,9 @@ $(document).ready(()=>{
             statusMessage.create(code, message)
         })});
 
-
     //Use this instead of $(.status-close) becuase class is added dynamically
-    $(document).on('click', ".status-close", function(e) { killMessage(e)});
+    $(document).on('click', ".status-close", function(e) { 
+        e.target.parentElement.remove()
+    });
 
 })
-
