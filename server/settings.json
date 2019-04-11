@@ -1,10 +1,5 @@
 {
     "hyperdeck": {
         "host": "192.168.10.55"
-    },
-    "projector": {
-        "status": "__PLACEHOLDER__",
-        "upTime": "40",
-        "downTime": "30.4"
     }
 }

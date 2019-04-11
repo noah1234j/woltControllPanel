@@ -3,7 +3,7 @@
 //Function Defs 
 
 export class StatusMessage {
-    create(res, message, fadeDelay = 700) {
+    create(res, message, fadeDelay = 3000) {
         //Creates the message
         $(".status-location").prepend("<div class='status-message'><p class='message'>" + message +"</p><div class='status-close'>x</div></div>")
 

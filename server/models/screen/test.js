@@ -1,5 +1,6 @@
-// let ScreenController = require('./index.js')
+let ScreenController = require("./index.js");
+let res = {};
+let req = {};
+req.body.command = "up";
 
-// let controller = new ScreenController
-
-// controller.up()
+ScreenController(req, res);

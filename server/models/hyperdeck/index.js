@@ -26,14 +26,14 @@ class HyperdeckController {
   }
 
   record() {
-    return this.hyperdeck.record().then(res => {
-      if (res.code == 200) {
-        res.message = "Successfully Started Video Recording";
-      } else {
-        res.message = "Could Not Start Video Recording";
-      }
-      return res;
-    });
+      return this.hyperdeck.record().then(res => {
+        if (res.code == 200) {
+          res.message = "Successfully Started Video Recording";
+        } else {
+          res.message = "Could Not Start Video Recording";
+        }
+        return res;
+      })
   }
 
   stop() {

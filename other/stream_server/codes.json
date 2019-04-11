@@ -1,0 +1,14 @@
+{
+    "success": {
+        "code": 200,
+        "status": "ok"
+    },
+    "failure": {
+        "code": 500,
+        "status": "error"
+    },
+    "unknown": {
+        "code": 404,
+        "status": "unlocated command"
+    }
+}

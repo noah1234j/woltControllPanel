@@ -3,11 +3,12 @@ const Hyperdeck = require("../models/hyperdeck/index");
 module.exports = hyperdeckController;
 
 async function hyperdeckController(req, res) {
+  
   let hyperdeck = new Hyperdeck();
 
   try {
     //Connecting
-    await hyperdeck.connect();
+    await hyperdeck.connect()
 
     //Which Command
     switch (req.body.command) {

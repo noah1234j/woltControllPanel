@@ -20,15 +20,8 @@ module.exports = function(app) {
     projectorController(req, res);
   });
 
-<<<<<<< HEAD
-  // //Screen
-  // app.post("/api/screen/", (req, res) => {
-  //   screenController(req, res)
-  // })
-=======
   //Screen
-//   app.post("/api/screen/", (req, res) => {
-//     screenController(req, res)
-//   })
->>>>>>> 157791766bb5e0d7bd1283e371be6ef0da9faec8
+  app.post("/api/screen/", (req, res) => {
+    screenController(req, res)
+  })
 };
