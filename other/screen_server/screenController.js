@@ -37,11 +37,8 @@ async function scrnHandler(req, res) {
       }
       break;
     case "status":
-      successHandler(
-        req,
-        res,
-        `The status of the projector is ${await scrn.status()}`
-      );
+      let status = require('/var/www/html/screen_model/status.json')
+      res.send(status.screen)
       break;
     default:
       failHandler(

@@ -1,23 +1,30 @@
 {
-    "stream": {
-        "successStart": {
-            "code": 200,
-            "message": "You have successfully started the Main Stream"
-        },
-        "successStop": {
-            "code": 200,
-            "message": "You have successfully stopped the Main Stream"
-        },
-        "successStatus": {
-            "code": 200
-        }, 
-        "failure": {
-            "code": 500,
-            "message": "Unknown Internal Server Error"
-        },
-        "unknownCommand": {
-            "code": 404,
-            "message": "We couldn't find that command"
-        }
+  "stream": {
+    "successStart": {
+      "code": 200,
+      "message": "You have successfully started the Main Stream"
+    },
+    "successStop": {
+      "code": 200,
+      "message": "You have successfully stopped the Main Stream"
+    },
+    "successStatus": {
+      "code": 200
+    },
+    "failure": {
+      "code": 500,
+      "message": "Unknown Internal Server Error"
+    },
+    "unknownCommand": {
+      "code": 404,
+      "message": "We couldn't find that command"
     }
+  },
+  "airfader": {
+    "unknownCommand": {
+      "code": 404,
+      "status": "unfound resource",
+      "message": "We counldn't find that command"
+    }
+  }
 }

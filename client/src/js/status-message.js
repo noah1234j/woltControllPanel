@@ -20,9 +20,5 @@ export class StatusMessage {
         $('.status-message').delay( fadeDelay ).fadeOut( 1200 )
     }
 
-    kill(e) {
-        e.target.parentElement.remove() //removes the element when x is clicked
-    }
-
 }
 

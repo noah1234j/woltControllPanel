@@ -33,9 +33,12 @@ class streamModel {
     return code.success
   }
  
-  status () {
-    code.success.message = data.status
-    return code.success
+  async status () {
+    if ((await list()).length > 0 ) {
+      return {"status": "RUNNING"}
+    } else {
+      return {"status": "NOT RUNNING"}
+    }
   }
 }
 

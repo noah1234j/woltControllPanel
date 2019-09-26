@@ -3,12 +3,24 @@ let hyperdeckController = require("../controllers/hyperdeckController");
 let projectorController = require("../controllers/projectorController");
 let screenController = require("../controllers/screenController");
 let streamController = require("../controllers/streamController");
+let airfaderController = require("../controllers/airFaderController");
+let status = require("../status.json")
 
 module.exports = function(app) {
   //Main Page
   app.get("/", (req, res) => {
     res.render("index");
-    console.log("Rendering");
+  });
+
+  //Status Page
+  app.get("/status", (req, res) => {
+    res.render("status");
+  });
+
+  //Settings
+  app.get("/settings", (req, res) => {
+    res.send('bob')
+    res.render("settings");
   });
 
   //Hyperdeck
@@ -28,7 +40,17 @@ module.exports = function(app) {
 
   //Stream
   app.post("/api/stream/", (req, res) => {
-    console.log('stream endpoint')
     streamController(req, res)
   })
-};
+
+  //AirFader
+  app.post("/api/airfader/", (req, res) => {
+    airfaderController(req, res)
+  })
+
+  //AirFader
+  app.post("/status/", (req, res) => {
+    res.send(status)
+  })
+
+}

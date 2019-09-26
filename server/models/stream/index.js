@@ -26,7 +26,7 @@ class streamModel {
     async status() {
         try {
             let msg = (await request('status')).message
-            codes.statusSuccess.message = `The status of your projector is ${msg}`
+            codes.statusSuccess.message = `The status of your stream is ${msg}`
             return codes.successStatus
         } catch {
             return codes.failure

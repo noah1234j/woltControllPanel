@@ -20,4 +20,16 @@ $(document).ready(()=>{
         e.target.parentElement.remove()
     });
 
+    $('.toggle').hide();
+    console.log('toggle')
+
+    $(document).on('click', ".toggler", function(e) { 
+        if($('.toggle').is(":visible")) {
+            $('.toggle').hide('100')
+        } else {
+            $('.toggle').show('100')
+        }
+    });
 })
+
+///////////////////////////////COMPARTMENTALIZE ME LATER EMERGENCY FIX ///////////////////////////////////

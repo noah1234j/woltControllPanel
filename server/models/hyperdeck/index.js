@@ -2,6 +2,10 @@
 let hyperdeckLib = require("hyperdeck-js-lib");
 let settings = require("../../settings.json");
 let logger = require("../../controllers/logController");
+let JSONHelper = require('../../helpers/jsonhelper.js');
+let status = require("./status.json");
+let statusFile = "./status.json";
+let json = new JSONHelper;
 function log(message) {
   logger(message, "../../logs/debug.log");
 }
@@ -29,6 +33,8 @@ class HyperdeckController {
       return this.hyperdeck.record().then(res => {
         if (res.code == 200) {
           res.message = "Successfully Started Video Recording";
+          status.hyperdeck = "RECORDING"
+          json.write(statusFile, status)
         } else {
           res.message = "Could Not Start Video Recording";
         }
@@ -40,6 +46,8 @@ class HyperdeckController {
     return this.hyperdeck.stop().then(res => {
       if (res.code == 200) {
         res.message = "Successfully Stopped Video Recording";
+        status.hyperdeck = "STOPPED"
+        json.write(statusFile, status)
       } else {
         res.message = "Could Not Stop Video Recording";
       }

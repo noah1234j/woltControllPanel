@@ -17,7 +17,9 @@
 		'recordStart':{url: 'api/hyperdeck/', data: { command: "record" }},
 		'recordStop':{url: 'api/hyperdeck/', data: { command: "stop" }},
 		'streamStart':{url: "api/stream/", data: { command: "start" }},
-		'streamStop':{url: "api/stream/", data: { command: "stop" }}
+		'streamStop':{url: "api/stream/", data: { command: "stop" }},
+		'airfaderStart':{url: "api/airfader/", data: { command: "start" }},
+		'airfaderStop':{url: "api/airfader/", data: { command: "stop" }}
 		};
 
 //Activates Script for each button
@@ -25,6 +27,7 @@ export function sendReq(e, callback) {
 
 	//grabs button ide
 	let $buttonId = e.currentTarget.id;
+	console.log($buttonId)
 
 	//grabs the script for each button from the list
 	let $url = $buttonList[$buttonId].url;
