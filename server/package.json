@@ -15,7 +15,7 @@
     "bindings": "^1.4.0",
     "body": "^5.1.0",
     "bootstrap": "^4.2.1",
-    "date-and-time": "^0.6.3",
+    "date-and-time": "^0.14.2",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "gpio": "^0.2.10",
